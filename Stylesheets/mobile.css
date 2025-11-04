@@ -1,0 +1,59 @@
+/* Footer */
+footer ul {
+  flex-direction: column;
+  padding: 1em;
+}
+
+footer ul li {
+  padding: 0.5em;
+}
+/* Hero */
+.hero {
+  height: 100dvh;
+  padding: 0;
+  padding-top: 40dvh;
+  background-position: center;
+}
+
+#cta-link {
+  width: 30dvw;
+}
+
+/* Home sections */
+section {
+  flex-direction: column;
+}
+
+.section-img img {
+  width: 100dvw;
+}
+
+.section-text {
+  width: 100dvw;
+  margin: 0;
+}
+
+#sec-2 {
+  flex-direction: column-reverse;
+}
+
+.open-hours {
+  width: 60dvw;
+  justify-content: space-between;
+}
+
+/* Menu page */
+#drink-menu, #menu-key {
+  margin: auto;
+  width: 70dvw;
+}
+
+#breakfast-menu, #lunch-menu {
+  margin: auto;
+  width: 80dvw;
+}
+
+/* Contact form */
+form {
+  width: 90dvw;
+}

@@ -1,0 +1,124 @@
+/* Variables */
+:root {
+  --primary: #0A1936;
+  --secondary: #F9E7A6;
+}
+
+/* Themes */
+.mr-light {
+  color: var(--primary);
+  background-color: var(--secondary);
+}
+
+.mr-dark {
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+
+/* Nav, footer */
+nav, footer {
+  background-color: var(--primary);
+  min-height: 10dvh;
+  height: auto;
+}
+
+footer ul {
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/* Misc. */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero */
+.hero {
+  background-image: url(../Images/ice-coffee-pour.avif);
+  background-size: cover;
+  height: 100dvh;
+  padding: 45dvh;
+  margin: 0;
+}
+
+#cta-link {
+  color: var(--primary);
+  background-color: var(--secondary);
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 10dvw;
+}
+
+/* Home page sections */
+section {
+  flex-direction: row;
+}
+
+.section-img img {
+  width: 49.4dvw;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.section-text {
+  width: 50dvw;
+  padding: 2em;
+  height: auto;
+}
+
+.open-hours {
+  width: 30dvw;
+  justify-content: space-between;
+}
+
+section img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+  border-radius: 5px;
+}
+
+/* Menu page */
+hr {
+  width: 50dvw;
+  margin: auto;
+}
+
+#drink-menu, #menu-key {
+  margin: auto;
+  width: 20dvw;
+}
+
+#breakfast-menu, #lunch-menu {
+  margin: auto;
+  width: 50dvw;
+}
+
+/* Contact page */
+form {
+  width: 40dvw;
+  margin: auto;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+form h2 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.form-div {
+  min-height: 70dvh;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
