@@ -15,11 +15,6 @@
   background-color: var(--primary);
 }
 
-/* Body */
-body {
-  min-height: 100dvh;
-}
-
 /* Nav, footer */
 nav, footer {
   background-color: var(--primary);
